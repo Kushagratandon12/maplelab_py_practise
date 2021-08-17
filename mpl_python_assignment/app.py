@@ -55,8 +55,6 @@ def pattern(rows_no):
 
 
 if __name__ == '__main__':
-    results = [largest_element_list([1400, -23, 970, 358, 7553, -2]), validate_even_odd(124), ascii_val_character('A')]
     pattern(5)
-    # results.append(Fibonacci(5))
-    results.append(fibonacci_range(1, 5))
+    results = [largest_element_list([1400, -23, 970, 358, 7553, -2]), validate_even_odd(124), ascii_val_character('A'),fibonacci_range(1, 5)]
     print(results)
